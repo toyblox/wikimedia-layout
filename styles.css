@@ -1,1 +1,37 @@
+html, body {
+	height: 100%;
+	width: 85%;
+	margin: 20px 40px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-bottom: 40px;
+}
+
+p {
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 10px 0;
+	line-height: 30px;
+}
+
+p1 {
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 10px 0;
+	align-self: flex-end;
+}
+
+.icons {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: wrap;
+}
 
